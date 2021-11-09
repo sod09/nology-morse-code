@@ -1,0 +1,107 @@
+
+.header {
+  color: #ffff;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.input__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .input__header {
+    padding-top: 50px;
+    color: #ffff;
+    font-size: 50px;
+
+  }
+
+  .input__value {
+    background-color: #ffff;
+    height: 700px;
+    width: 500px;
+    border-radius: 20px;
+    border: solid #ffff 5px;
+    text-align: justify;
+    font-size: 40px;
+    color: black;
+  }
+}
+
+.output__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 100px;
+
+ .output__header {
+  color: #ffff;
+  font-size: 50px;
+
+ }
+
+
+.output__value {
+  background-color: #ffff;
+  height: 700px;
+  width: 500px;
+  border-radius: 20px;
+  border: solid #ffff 5px;
+  font-size: 40px;
+  color: black;
+  text-align: left;
+}
+
+}
+
+.translate__button {
+margin-top: 180x;
+color: black;
+background-color: #FCD111;
+cursor: pointer;
+font-size: 50px;
+border-radius: 20px;
+border: solid #FCD111;
+height: 180px;
+width: 400px;
+}
+
+.translate__button:hover {
+  background-color: #D7B003;
+}
+
+.outro__signature {
+  color: #ffff;
+  font-size: 20px;
+  text-align: center;
+
+  padding-right: 190px;
+
+}
+
+.outro__icon {
+  text-align: center;
+  font-size: 20px;
+
+  padding-right: 190px;
+
+  .outro__email {
+    color: #ffff;
+  }
+
+  .outro__email:active {
+    color: #ffff;
+  } /* Selected link   */
+
+  .outro__email:visited {
+    color: #ffff;
+  } /* Mouse over link */
+
+  .outro__email:hover {
+    color: #D7B003;
+  } /* Mouse over link */
+}
