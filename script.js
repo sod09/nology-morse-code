@@ -107,15 +107,25 @@ const checkTypeOfValue = () => {
   let inputValue = document.querySelector(".input__value").value;
     if (typeof inputValue === "string") { 
         translateToMorse();
-  } if (inputValue.includes("." || "-")) {
+  } if ((inputValue.includes('.')) || (inputValue.includes('-'))) {
     translateToEnglish();
   }
   return checkTypeOfValue 
 }
 
-
-
-translateButton.addEventListener("click", checkTypeOfValue)
+// translateButton.addEventListener("click", checkTypeOfValue)
 
 
 
+let inputValue = document.querySelector(".input__value");
+
+
+  const mirrorValue = () => {
+      let inputValue = document.querySelector(".input__value").value;
+      outputValue.innerHTML = inputValue;      
+      console.log(inputValue);
+      checkTypeOfValue();
+      return mirrorValue
+  }
+
+inputValue.addEventListener("keyup",  mirrorValue)
