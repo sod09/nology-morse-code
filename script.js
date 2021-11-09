@@ -28,13 +28,13 @@ const morseCode = {
 
 const englishCode= {
   '.-': 'A',
-  '-…': 'B',
+  '-...': 'B',
   '-.-.': 'C',
   '-..': 'D',
   '.': 'E',
   '..-.': 'F',
   '--.': 'G',
-  '….': 'H',
+  '....': 'H',
   '..': 'I',
   '.---': 'J',
   '-.-': 'K',
@@ -45,10 +45,10 @@ const englishCode= {
   '.--.': 'P',
   '--.-': 'Q',
   '.-.': 'R',
-  '…': 'S',
+  '...': 'S',
   '-': 'T',
   '..-': 'U',
-  '…-': 'V',
+  '...-': 'V',
   '.--': 'W',
   '-..-': 'X',
   '-.--': 'Y',
@@ -56,11 +56,11 @@ const englishCode= {
   '-----': '0',
   '.----': '1',
   '..---': '2',
-  '…--': '3',
-  '….-': '4',
-  '…..': '5',
-  '-….': '6',
-  '--…': '7',
+  '...--': '3',
+  '....-': '4',
+  '... . .': '5',
+  '-... .': '6',
+  '--...': '7',
   '---..': '8',
   '----.': '9',
 }
@@ -88,44 +88,34 @@ const translateToMorse = () => {
 const translateToEnglish = () => {
   // target the value in the HTML and convert to uppercase to match object keys
   let inputValue = document.querySelector(".input__value").value;
-  // create array variable to push values too
-  let valueArray= ["    "]
-  valueArray.push(inputValue);
   // create an array to itterate through, first convert to an array, second map through for the values 
- const arrayForConversion = valueArray.map(x => {
-    return englishCode[x]
+ const arrayForConversion = inputValue.split(" ").map(x => {
+  console.log(englishCode[x]);
+    return englishCode[x] 
  })
   // return the array as a string 
   const englishTranslation = arrayForConversion.join("");
   // display translation in the HTML 
   outputValue.innerHTML = englishTranslation;
-  // !! more than one morse code? 
-   
   console.log("english check");
 }
 
 
+// a function to check which function to run on click - checks whether its a string to run the translateToMorse to dot and dash to translateToEnglish 
 
-// const checkTypeOfValue = () => {
-//   let inputValue = document.querySelector(".input__value").value;
-//     if (typeof inputValue === "string") { 
-//         translateToMorse();
-//   } else if (inputValue === "." || "-") {
-//     translateToEnglish();
-//   }
-//   return checkTypeOfValue 
-// }
-
-
-
-// translateButton.addEventListener("click", checkTypeOfValue)
-
-translateButton.addEventListener("click", translateToEnglish)
-translateButton.addEventListener("click", translateToMorse)
+const checkTypeOfValue = () => {
+  let inputValue = document.querySelector(".input__value").value;
+    if (typeof inputValue === "string") { 
+        translateToMorse();
+  } if (inputValue.includes("." || "-")) {
+    translateToEnglish();
+  }
+  return checkTypeOfValue 
+}
 
 
 
-// !! display characters as it's changing? 
+translateButton.addEventListener("click", checkTypeOfValue)
 
 
 

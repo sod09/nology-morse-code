@@ -2,6 +2,10 @@
   color: #ffff;
   font-size: 80px;
   text-align: center;
+  margin: auto;
+  border: solid 5px #ffff;
+  border-radius: 20px;
+  width: 50%;
   margin-top: 50px;
 }
 
@@ -12,9 +16,11 @@
   flex-wrap: wrap;
 }
 .input__container .input__header {
-  padding-top: 50px;
   color: #ffff;
   font-size: 50px;
+  border: solid 5px #ffff;
+  border-radius: 20px;
+  margin-bottom: 5px;
 }
 .input__container .input__value {
   background-color: #ffff;
@@ -37,6 +43,9 @@
 .output__container .output__header {
   color: #ffff;
   font-size: 50px;
+  border: solid 5px #ffff;
+  border-radius: 20px;
+  margin-bottom: 5px;
 }
 .output__container .output__value {
   background-color: #ffff;
