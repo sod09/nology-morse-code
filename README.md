@@ -7,6 +7,8 @@ Skills
 <li>CSS</li>
 <li>SASS</li>
 <li>BEM</li>
+<li>Figma</li>
+<li>Git & GitHub</li>
 </ul>
 
 JavaScript
