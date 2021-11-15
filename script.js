@@ -65,6 +65,7 @@ const englishCode= {
   '----.': '9',
 }
 
+// UI VARIABLES
 const translateButton = document.querySelector(".translate__button"); 
 const outputValue = document.querySelector(".output__value")
 
@@ -112,10 +113,6 @@ const checkTypeOfValue = () => {
   }
   return checkTypeOfValue 
 }
-
-// translateButton.addEventListener("click", checkTypeOfValue)
-
-
 
 let inputValue = document.querySelector(".input__value");
 
