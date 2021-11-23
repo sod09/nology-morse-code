@@ -28,9 +28,9 @@ body {
   margin: auto;
   border: solid 5px #ffff;
   border-radius: 20px;
-  width: 40%;
+  width: 60%;
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .input__container {
@@ -44,7 +44,7 @@ body {
   font-size: 50px;
   border: solid 5px #ffff;
   border-radius: 20px;
-  margin: 50px auto 25px auto;
+  margin: 20px auto 25px auto;
   padding: 10px;
   width: 700px;
   text-align: center;
@@ -52,7 +52,7 @@ body {
 .input__container .input__value {
   background-color: #ffff;
   height: 100px;
-  width: 700px;
+  width: 1400px;
   border-radius: 20px;
   border: solid #ffff 5px;
   text-align: justify;
@@ -67,7 +67,7 @@ body {
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  margin: 50px;
+  margin: 10px;
 }
 .output__container .output__header {
   color: #ffff;
@@ -81,8 +81,8 @@ body {
 }
 .output__container .output__value {
   background-color: #ffff;
-  height: 300px;
-  width: 700px;
+  height: 200px;
+  width: 1400px;
   border-radius: 20px;
   border: solid #ffff 5px;
   font-size: 40px;
@@ -92,26 +92,26 @@ body {
 }
 
 .translate__button {
-  margin-top: 180x;
+  margin-top: 100px;
   color: black;
-  background-color: #FCD111;
+  background-color: #fcd111;
   cursor: pointer;
   font-size: 50px;
   border-radius: 20px;
-  border: solid #FCD111;
+  border: solid #fcd111;
   height: 180px;
   width: 400px;
 }
 
 .translate__button:hover {
-  background-color: #D7B003;
+  background-color: #d7b003;
 }
 
 .outro__signature {
   color: #ffff;
   font-size: 20px;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .outro__icon {
@@ -131,5 +131,5 @@ body {
   color: #ffff;
 }
 .outro__icon .outro__email:hover {
-  color: #D7B003;
+  color: #d7b003;
 }
