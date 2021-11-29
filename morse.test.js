@@ -14,6 +14,11 @@ it("should return a translation from -... to B", () => {
   expect(output).toBe("B");
 });
 
+it("should return a translation from .- -...  to AB", () => {
+  const output = translateToEnglish(" .- -...");
+  expect(output).toBe("AB");
+});
+
 // export const translateToEnglish = (morse) => {
 //   const arrayForConversion = morse.split(" ").map((x) => {
 //     return englishCode[x];

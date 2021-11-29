@@ -15,6 +15,7 @@ JavaScript
 
 <ul>
 <li>OOP Approach</li>
+<li>Jest Testing</li>
 <li>Array of Objects</li>
 <li>map()</li>
 <li>split()</li>
@@ -32,4 +33,4 @@ So that I could use the same input box for both translations, I created a new fu
 
 I then attached the function to an event listener.
 
-As an extension to the project, I decided to create a function that would mirror the input text to the output text whilst also calling the checkTypeOfValue() function so that the correct translation was intiated as the user typed. The button was then no longer required and the user gets an instantaneous translation as they type. 
+As an extension to the project, I decided to create a function that would mirror the input text to the output text whilst also calling the checkTypeOfValue() function so that the correct translation was intiated as the user typed. The button was then no longer required and the user gets an instantaneous translation as they type.

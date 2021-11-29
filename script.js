@@ -111,7 +111,7 @@ export const translateToEnglish = (morse) => {
   // outputValue.innerHTML = englishTranslation;
 };
 
-// a function to check which function to run on click - checks whether its a string to run the translateToMorse to dot and dash to translateToEnglish
+// function to check which function to run on click - checks whether its a string to run the translateToMorse to dot and dash to translateToEnglish
 
 // const checkTypeOfValue = () => {
 //   let inputValue = document.querySelector(".input__value").value;
