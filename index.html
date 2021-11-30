@@ -1,42 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./main.css">
-  <script src="https://kit.fontawesome.com/50e160d117.js" crossorigin="anonymous"></script>
-  <title>Morse Code Translator</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script
+      src="https://kit.fontawesome.com/50e160d117.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Morse Code Translator</title>
+  </head>
 
+  <body>
+    <h1 class="header">MORSE CODE TRANSLATOR</h1>
 
-<body>
+    <div class="morse__container">
+      <div class="input__container">
+        <label for="input__value input__label" class="input__header"
+          >TYPE TO TRANSLATE</label
+        >
+        <input type="text value="english" class="input__value" placeholder="Type your English or Morse here">
+      </div>
 
- <h1 class="header">MORSE CODE TRANSLATOR</h1>
+      <div class="output__container">
+        <div class="output__header">TRANSLATION</div>
+        <div class="output__value">...</div>
+      </div>
 
- <div class="morse__container">
+      <p class="outro__signature">Created by Sasha O'Donovan for _nology.io</p>
+      <div class="outro__icon">
+        <a class="outro__email" href="mailto: thisgirlwillcode@gmail.com"
+          ><i class="fas fa-envelope-square fa-5x"></i
+        ></a>
+      </div>
+    </div>
 
-  <div class="input__container">
-    <label for="input__value input__label" class="input__header">TYPE TO TRANSLATE</label>
-    <input type="text value="english" class="input__value" placeholder="Type your English or Morse here">
-  </div>
-<!-- 
-  <button class="translate__button">TRANSLATE ME!</button> -->
-
-  <div class="output__container">
-    <div class="output__header">TRANSLATION</div>
-    <div class="output__value">...</div>
-  </div>
-  
-
-
-  <p class="outro__signature"> Created by Sasha O'Donovan for _nology.io</p>
-  <div class="outro__icon"><a class="outro__email" href = "mailto: thisgirlwillcode@gmail.com"><i class="fas fa-envelope-square fa-5x"></i></a></div>
-  
-
- 
-</div>
-
-  <script src="./script.js"></script>
-</body>
+    <script src="./script/main.js" type="module"></script>
+  </body>
 </html>
