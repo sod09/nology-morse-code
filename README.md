@@ -1,6 +1,6 @@
-# morse-code
+<h1>Morse Code</h1>
 
-Skills
+<h2>Skills</h2>
 
 <ul>
 <li>Semantic HTML</li>
@@ -11,7 +11,7 @@ Skills
 <li>Git & GitHub</li>
 </ul>
 
-JavaScript
+<h2>JavaScript</h2>
 
 <ul>
 <li>OOP</li>
@@ -25,6 +25,8 @@ JavaScript
 <li>Event Listeners</li>
 <li>Mirrored outputs</li>
 </ul>
+
+<h2>Method</h2>
 
 Using an OOP Approach, I created two objects with Morse Code characters and English characters.
 
@@ -40,3 +42,4 @@ I also took a TDD approach and tested my code to ensure all functions and output
 
 
 <img src="translator_image.png">
+
