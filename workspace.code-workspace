@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "..\\mortgage_calculator"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "mortgage_calculator"
+  }
+}
