@@ -1,4 +1,4 @@
-<h1>Morse Code</h1>
+<h1>Morse Code Translator</h1>
 
 <h2>Skills</h2>
 
